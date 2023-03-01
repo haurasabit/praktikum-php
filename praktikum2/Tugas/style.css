@@ -1,0 +1,21 @@
+.container{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vh;
+
+}
+
+h4{
+    margin-top: 2vh;
+    margin-left: 3vh;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: -25vh;
+    width: 2000vh;
+    border-style: inset;
+    border-width: 1px;
+  }
