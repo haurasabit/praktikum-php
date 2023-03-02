@@ -32,15 +32,15 @@
                         <label class="col-4">Pilih Produk</label> 
                         <div class="col-8">
                         <div class="custom-control custom-radio custom-control-inline">
-                            <input name="produk" id="tv" type="radio" class="custom-control-input" value="TV"> 
+                            <input name="produk" name="tv" id="tv" type="radio" class="custom-control-input" value="TV"> 
                          <label for="tv" class="custom-control-label">TV</label>
                         </div>
                         <div class="custom-control custom-radio custom-control-inline">
-                           <input name="produk" id="kulkas" type="radio" class="custom-control-input" value="Kulkas"> 
+                           <input name="produk" name ="kulkas "id="kulkas" type="radio" class="custom-control-input" value="Kulkas"> 
                             <label for="kulkas" class="custom-control-label">Kulkas</label>
                           </div>
                           <div class="custom-control custom-radio custom-control-inline">
-                           <input name="produk" id="mesincuci" type="radio" class="custom-control-input" value="Mesin Cuci"> 
+                           <input name="produk" name="mesincuci" id="mesincuci" type="radio" class="custom-control-input" value="Mesin Cuci"> 
                             <label for="mesincuci" class="custom-control-label">Mesin Cuci</label>
                           </div>
                         </div>
@@ -103,12 +103,15 @@
                         <td><?= $_customer; ?></td>
                         <td><?= $_produk; ?></td>
                         <td><?= $_jumlah; ?></td>
+                        <td><?= 'Rp. ' . $_harga; ?></td>
                         
                     </tr>
                 </table>
             </div>
 
     </div>
+
+    
 
     <br><br><br><br><br>
     <hr>
