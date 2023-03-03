@@ -103,7 +103,7 @@
                         <td><?= $_customer; ?></td>
                         <td><?= $_produk; ?></td>
                         <td><?= $_jumlah; ?></td>
-                        <td><?= 'Rp. ' . $_harga; ?></td>
+                        <td><?= $_set = 'Rp ' . number_format($_harga, 0, ',', '.'); ?></td>
                         
                     </tr>
                 </table>
