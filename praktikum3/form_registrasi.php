@@ -91,8 +91,8 @@
             </div>
             </div>
             </form>
-
-        <hr>
+        <br>
+        <hr> <br><br>
         <table class="table table-bordered">
             <tr class="table-primary text-uppercase">
                 <th>nim</th>
@@ -100,8 +100,10 @@
                 <th>email</th>
                 <th>jenis kelamin</th>
                 <th>domisili</th>
-                <th>Program studi</th>
+                <th>Prodi</th>
                 <th>skill</th>
+                <th>Skor</th>
+                <th>predikat</th>
             </tr>
             <!-- ini buat manggil data nya -->
             <?php 
@@ -123,8 +125,9 @@
                 <th><?= $_gender; ?></th>
                 <th><?= $_domisili; ?></th>
                 <th><?= $_prodi; ?></th>
-                <th><?php foreach ($_skillS as $skill){echo $skill . ", ";} ; ?></th>
-
+                <th><?php foreach ($_skillS as $skill){echo $skill . " ";} ; ?></th>
+                <th><?= $_nilai; ?></th>
+                <th><?= $_keterangan; ?></th>
             </tr>
             <?php } ?>
         </table>
