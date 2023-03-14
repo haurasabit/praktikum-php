@@ -14,11 +14,4 @@ else {
     $_keterangan = "TIDAK LULUS";
 }
 
-
-
-
-
-
-
-
 ?>
